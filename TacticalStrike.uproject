@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "Games",
+  "Description": "Original competitive tactical FPS prototype",
+  "Modules": [
+    {
+      "Name": "TacticalStrike",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "TargetPlatforms": ["Windows"]
+}
