@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TACTICAL ARENA</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu" class="screen"><div class="panel"><div class="eyebrow">TACTICAL ARENA // ONLINE</div><h1>نبردِ نئون</h1><p>یک بازی رقابتی راندی با حرکت سریع، توانایی‌های تاکتیکی و امتیازگیری.</p><button id="start">شروع بازی</button><div class="keys">WASD حرکت · Shift سرعت · Space پرش · E توانایی · R شروع دوباره</div></div></div>
+<div id="hud" class="hidden"><div class="top"><span>ROUND <b id="round">01</b></span><span>امتیاز <b id="score">0</b></span><span>زمان <b id="time">90</b></span></div><div class="status"><div><span>ENERGY</span><div class="bar"><i id="energy"></i></div></div><div><span>HP</span><div class="bar"><i id="hp"></i></div></div></div><div id="ability">E — DASH</div><div id="toast"></div></div>
+<canvas id="game"></canvas><script src="game.js"></script>
+</body></html>
